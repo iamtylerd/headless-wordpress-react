@@ -1,0 +1,21 @@
+.singlePostContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    img {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+.postFooter {
+    width: 90%;
+    text-align: right;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    .postDate {
+        margin-left: 2rem;
+    }
+}

@@ -1,0 +1,42 @@
+
+  .postContainer {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.postContents {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    height: 30%;
+    width: 75%;
+    border-bottom: .5px dotted lightgray;
+    img {
+      height: 25%;
+      width: 25%;
+      filter: grayscale(100%);
+    }
+    img:hover {
+      filter: none;
+      cursor: pointer;
+    }
+    h3 {
+      display: block;
+    }
+  }
+  
+  .postContainer {
+    :hover {
+      cursor: pointer;
+    }
+  }
+
+  a {
+      text-decoration: none;
+      color: black;
+      :visited {
+          text-decoration: none;
+          color: black;
+      }
+  }
