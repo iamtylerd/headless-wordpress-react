@@ -34,7 +34,6 @@ class Post extends Component {
             <h1>Post does not exist.</h1>
         )
     }
-    console.log(post)
     return (
         <div>
             <div className="singlePostContainer">
